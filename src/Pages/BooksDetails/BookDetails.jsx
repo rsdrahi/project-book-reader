@@ -35,7 +35,7 @@ const BookDetails = () => {
 
   return (
 
-    <div className="grid grid-cols-2 bg-base-100 shadow-sm container mx-auto my-12">
+    <div className="grid md:grid-cols-2 bg-base-100 shadow-sm container mx-auto my-12">
   <figure className='w-full flex items-center justify-center bg-gray-100 container rounded-lg'>
     <img
       src={image}
